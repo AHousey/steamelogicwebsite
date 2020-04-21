@@ -1,0 +1,89 @@
+<style>
+@charset "utf-8";
+
+body {
+  margin: 0;
+  background-color: #EEEDE7;
+}
+.sidebar {
+  display: flex;
+  background: rgb(255, 255, 255);
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  padding: 4px;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 150px;
+  height: 100vh;
+  border-right: 1px solid;
+  text-align: left;
+  white-space: normal;
+  overflow-x: auto;
+  width: auto;
+}
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+a:hover {
+  outline-width:0;
+  background-color: black;
+  color: #EEEDE7;
+}
+.item {
+  display: inline-flex;
+	text-transform: uppercase;
+  line-height: 20px;
+  padding: 10px 20px;
+  color: white;
+}
+.section {
+  padding: 10px;
+}
+.text{
+margin-left: 15%;
+margin-top: -699px;
+width: 80%
+}
+.paragraph {
+  width: 80%;
+  font-family: "Avenir", sans-serif;
+  margin-left: 15%;
+  margin-top: -875px;
+  text-align: center;
+ }
+div.text h1{
+	text-decoration: underline;
+	text-align: center;
+}
+.content{
+margin-left: 15%;
+margin-top: 0px;
+width: 80%
+}
+.li{
+  float: left;
+  font-family: "Avenir", sans-serif;
+}
+.column {
+  float: left;
+  margin-left: 15%;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+div.footer {
+	position: relative;
+	top:450px;
+	padding-top: 0px;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 20px;
+}
+</style>
