@@ -58,46 +58,31 @@ div.middle p{
 	padding-left: 190px;
 }
 
-
-.form{
-	margin-top: 100px;
-	transition: all 4s ease-in-out;
+.box{
 	text-align: center;
+	margin-top: 50px;
 }
-.form-control{
-	width: 800px;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: 1px  purple;
-	color: grey;
-	font-size: 18px;
-	margin-bottom: 16px;
-	text-align: center;
-}
-.input{
-	height:35px;
-	text-align: center;
-}
-form .submit{
-	background: green;
-	border-color: transparent;
-	color: #fff;
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: 1px;
-	height: 80px;
-	margin-top: 20px;
-	text-align: center;
-}
-form .submit:hover{
-	background-color: green;
+button{
+	border: 1px solid black;
+	background: none;
+	padding: 10px 20px;
+	font-size: 50px;
+	font-family: "Avenir", san-serif;
+	color: white;
 	cursor: pointer;
-	text-align: center;
+	margin: 10px
+	transition: o.5;
 }
-
-
+	
+button{
+	background-color: green;
+}
+button:hover{
+	color: black;
+}
 {
 	background: #109177;
 }
+
+
 </style>
